@@ -11,7 +11,7 @@ server.listen(process.env.PORT || 8010);//publish to heroku
 //server.listen(process.env.OPENSHIFT_NODEJS_PORT || 3000);//publish to openshift
 //console.log('server started on port'+process.env.PORT || 3000);
 //handle the socket
-
+//1
 //在这connection中设置服务器逻辑
 //io.sockets.emit 全网发送(包括自己), socket.broadcast.emit(不包括自己)
 io.sockets.on('connection', function(socket) {
